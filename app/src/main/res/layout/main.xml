@@ -43,7 +43,13 @@
     </EditText>
 
     <!-- Make a button for 5% tip that will be above the 10% tip button  -->
-    
+    <!-- Button for 5% tip -->
+    <Button
+        android:id="@+id/tip5"
+        android:text="@string/button_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tip10"/>
    <!-- Button for 20% tip -->
   	<Button
   		android:id="@+id/tip20"
@@ -59,14 +65,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/tip20"/>
+
 <!-- Button for 10% tip -->
     <Button
-        android:id="@+id/tip10"
-        android:text="@string/button_10"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" 
-        android:layout_above="@+id/tip15"/>
-    
+    android:id="@+id/tip10"
+    android:text="@string/button_10"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/tip15"/>
+
+
     <!-- Text view for "select tip" on the main menu-->
     <TextView
         android:id="@+id/tip_prompt"
