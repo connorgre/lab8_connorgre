@@ -13,7 +13,7 @@
     <string name="button_5">5%</string>
     <string name="button_10">10%</string>
     <string name="button_15">15%</string>
-    <string name="button_20">20</string>
+    <string name="button_20">20%</string>
     
     <!-- Result.xml Strings -->
     <string name="tip_amount">Your tip is: </string>
